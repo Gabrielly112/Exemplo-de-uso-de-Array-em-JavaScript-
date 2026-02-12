@@ -1,94 +1,81 @@
-🍓 Exemplo de Uso de Array em JavaScript
+# 🍓 Gerenciador de Frutas com JavaScript
 
-Este projeto demonstra, de forma simples e didática, o uso de Arrays em JavaScript, permitindo adicionar, visualizar e remover elementos dinamicamente através da interface do navegador.
+Aplicação web interativa desenvolvida com **HTML5, CSS3 e JavaScript puro (Vanilla JS)** com o objetivo de demonstrar, de forma prática e visual, a manipulação de **Arrays** no JavaScript.
 
-A aplicação foi desenvolvida utilizando apenas HTML5, CSS3 e JavaScript puro (Vanilla JS), com foco educacional.
+O projeto permite adicionar, listar e remover elementos dinamicamente, atualizando a interface em tempo real.
 
-📌 Objetivo do Projeto
+---
 
-Demonstrar na prática:
+## 📖 Sobre o Projeto
 
-Criação de arrays
+Este projeto foi desenvolvido com foco educacional para reforçar conceitos fundamentais de JavaScript, especialmente a manipulação de arrays e interação com o DOM.
 
-Manipulação de dados com push() e pop()
+A aplicação simula um pequeno gerenciador de lista, onde o usuário pode:
 
-Exibição dinâmica de conteúdo no DOM
+- Visualizar os itens armazenados
+- Inserir novos elementos
+- Remover o último elemento inserido
+- Acompanhar a quantidade total de itens
 
-Interação com o usuário via prompt()
+Tudo isso de forma simples, clara e organizada.
 
-Atualização automática da interface
+---
 
-🚀 Funcionalidades
+## 🎯 Objetivos de Aprendizado
 
-✔️ Exibir o conteúdo atual do array
-✔️ Mostrar a quantidade de elementos armazenados
-✔️ Adicionar uma nova fruta ao array
-✔️ Remover a última fruta inserida
-✔️ Exibir mensagem quando o array estiver vazio
+- Compreender o funcionamento de Arrays
+- Aplicar métodos fundamentais de manipulação (`push`, `pop`, `join`, `length`)
+- Trabalhar com estruturas condicionais
+- Manipular elementos do DOM dinamicamente
+- Criar interações com o usuário utilizando `prompt()` e `alert()`
+- Atualizar a interface automaticamente após alterações
 
-🛠️ Tecnologias Utilizadas
+---
 
-HTML5
+## 🚀 Funcionalidades
 
-CSS3
+✔ Exibição completa do array  
+✔ Contagem automática de elementos  
+✔ Adição dinâmica de novos itens  
+✔ Remoção do último elemento inserido  
+✔ Mensagem informativa quando o array está vazio  
+✔ Interface estilizada com CSS  
 
-JavaScript (Vanilla JS)
+---
 
-🧠 Conceitos Abordados
+## 🛠 Tecnologias Utilizadas
 
-Declaração de variáveis com let
+- **HTML5** – Estrutura da aplicação  
+- **CSS3** – Estilização e layout  
+- **JavaScript (ES6+)** – Lógica e manipulação de dados  
 
-Estruturas de dados (Array)
+---
 
-Manipulação de DOM com getElementById
+## 🧠 Conceitos Técnicos Aplicados
 
-Métodos de array:
+### Estrutura de Dados
+- Criação e manipulação de Arrays
 
-push()
+### Métodos de Array
+- `push()` – Adiciona elemento ao final  
+- `pop()` – Remove o último elemento  
+- `join()` – Converte array em string formatada  
+- `length` – Retorna quantidade de elementos  
 
-pop()
+### Manipulação de DOM
+- `document.getElementById()`
+- `innerHTML`
+- Eventos `onclick`
 
-join()
+### Estruturas de Controle
+- Condicionais `if / else`
 
-length
+### Recursos Modernos
+- Template Strings (`` ` ``)
+- Atualização dinâmica da interface
 
-Estruturas condicionais (if / else)
+---
 
-Template Strings (` `)
-
-Eventos onclick
-
-Interação com usuário via prompt() e alert()
-
-📂 Estrutura do Projeto
-
-O projeto é composto por um único arquivo HTML contendo:
-
-Estrutura da página
-
-Estilização interna (CSS)
-
-Script JavaScript incorporado
-
-index.html
-
-💻 Como Executar
-
-Faça o download ou clone este repositório:
-
-git clone https://github.com/seu-usuario/seu-repositorio.git
+## 📂 Estrutura do Projeto
 
 
-Abra o arquivo index.html no navegador.
-
-Não é necessário servidor ou instalação adicional.
-
-📸 Funcionamento
-
-Ao abrir a página:
-
-O array inicia vazio.
-
-O usuário pode clicar nos botões para interagir.
-
-A interface é atualizada automaticamente após cada ação.
