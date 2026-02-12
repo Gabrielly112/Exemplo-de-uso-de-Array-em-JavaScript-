@@ -78,4 +78,12 @@ Tudo isso de forma simples, clara e organizada.
 
 ## 📂 Estrutura do Projeto
 
+O projeto está contido em um único arquivo HTML que inclui:
+
+- Estrutura da página
+- Estilização interna
+- Script JavaScript incorporado
+
+---
+
 
